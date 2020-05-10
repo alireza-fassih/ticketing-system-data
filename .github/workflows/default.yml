@@ -14,7 +14,7 @@ jobs:
       with:
         java-version: 11
     - name: Run project Tests
-      run: mvn -B clean test verify org.sonarsource.scanner.maven:sonar
+      run: mvn -B clean test verify sonar:sonar
       env:
         SONAR_LOGIN: ${{ secrets.SONAR_LOGIN }}
     - name: deploy projet
