@@ -14,6 +14,15 @@
 	<name>ticketing-system-data</name>
 	<description>defining ticketing system data</description>
 
+	<distributionManagement>
+	   <repository>
+	     <id>github</id>
+	     <name>GitHub alireza-fassih Apache Maven Packages</name>
+	     <url>https://maven.pkg.github.com/alireza-fassih/libs</url>
+	   </repository>
+	</distributionManagement>
+	
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
