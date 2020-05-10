@@ -16,6 +16,7 @@ jobs:
     - name: Run project Tests
       run: mvn -B clean test verify sonar:sonar
       env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_LOGIN: ${{ secrets.SONAR_LOGIN }}
     - name: deploy projet
       run:  mvn -B -Dmaven.test.skip clean deploy
