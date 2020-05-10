@@ -19,7 +19,7 @@
 	   <repository>
 	     <id>github</id>
 	     <name>GitHub alireza-fassih Apache Maven Packages</name>
-	     <url>https://maven.pkg.github.com/alireza-fassih/libs</url>
+	     <url>https://maven.pkg.github.com/alireza-fassih/ticketing-system-data</url>
 	   </repository>
 	</distributionManagement> 
 
