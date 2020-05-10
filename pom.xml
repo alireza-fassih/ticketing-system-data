@@ -27,6 +27,10 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<sonar.projectKey>alireza-fassih_ticketing-system-data</sonar.projectKey>
+	    <sonar.organization>alireza-fassih</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>${env.SONAR_LOGIN}</sonar.login>
 	</properties>
 
 	<dependencies>
