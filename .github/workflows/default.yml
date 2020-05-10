@@ -16,7 +16,7 @@ jobs:
     - name: Run project Tests
       run: mvn clean test
     - name: deploy projet
-      run: cat ~/.m2/settings.xml && mvn -Dmaven.test.skip clean deploy
+      run:  mvn -Dmaven.test.skip clean deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_ACTOR: alireza-fassih
