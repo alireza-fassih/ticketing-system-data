@@ -19,3 +19,4 @@ jobs:
       run:  mvn -Dmaven.test.skip clean deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_ACTOR: x-access-token
